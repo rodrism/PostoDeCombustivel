@@ -28,7 +28,7 @@ public class BombaCombustivel {
 		return valorTotal;
 	}
 	public void setValorTotal(float valorTotal) {
-		this.valorTotal = valorTotal;
+		this.valorTotal = this.valorLitro * this.qtdLitros;
 	}
 	
 	
